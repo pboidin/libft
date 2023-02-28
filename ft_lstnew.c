@@ -6,7 +6,7 @@
 /*   By: piboidin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 18:13:10 by piboidin          #+#    #+#             */
-/*   Updated: 2021/11/25 18:24:35 by piboidin         ###   ########.fr       */
+/*   Updated: 2021/12/02 09:53:40 by piboidin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,3 @@ t_list	*ft_lstnew(void *content)
 	new_el->next = NULL;
 	return (new_el);
 }
-
-/*
-** int	main(void)
-** {
-** 	char	str[] = "ALLEZ LE LOSC";
-**	
-**	t_list	*elem;
-**	elem = ft_lstnew((void *)str);
-**	printf("\n%s\n", elem->content);
-** }
-*/
